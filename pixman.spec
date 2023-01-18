@@ -1,7 +1,7 @@
 # based on https://src.fedoraproject.org/rpms/pixman/blob/rawhide/f/pixman.spec
 Name: pixman
 Version: 0.42.2
-Release: 1%{?dist}
+Release: 2%{?dist}
 
 License: MIT
 Summary: Pixel manipulation library
@@ -60,6 +60,18 @@ Requires: %{name}%{?isa} = %{version}-%{release}
 %{_libdir}/libpixman-1*.so
 
 %changelog
+* Wed Jan 18 2023 Bader Zaidan <bader@zaidan.tech> 0.42.2-2
+- correct dependency name (bader@zaidan.tech)
+
+* Wed Jan 18 2023 Bader Zaidan <bader@zaidan.tech>
+- correct dependency name (bader@zaidan.tech)
+
+* Wed Jan 18 2023 Bader Zaidan <bader@zaidan.tech>
+- correct dependency name (bader@zaidan.tech)
+
+* Wed Jan 18 2023 Bader Zaidan <bader@zaidan.tech>
+- correct dependency name (bader@zaidan.tech)
+
 * Wed Jan 18 2023 Bader Zaidan <bader@zaidan.tech> 0.42.2-1
 - Automatic commit of package [pixman] minor release [0.42.2-0].
   (bader@zaidan.tech)
