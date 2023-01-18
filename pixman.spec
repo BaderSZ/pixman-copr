@@ -13,7 +13,7 @@ Url: https://xcb.freedesktop.org/
 
 Source0: https://cairographics.org/releases/%{name}-%{version}.tar.gz
 
-Requires: gtk+-3.0
+Requires: gtk-3
 Requires: glibc
 Requires: libpng
 BuildRequires: gcc
