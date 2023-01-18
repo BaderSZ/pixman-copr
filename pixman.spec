@@ -60,6 +60,9 @@ Requires: %{name}%{?isa} = %{version}-%{release}
 %{_libdir}/libpixman-1*.so
 
 %changelog
+* Wed Jan 18 2023 Bader Zaidan <bader@zaidan.tech> 0.42.2-0
+- new package built with tito
+
 * Wed Jan 18 2023 Bader Zaidan <bader@zaidan.tech> 0.42.3-1
 - new package built with tito
 
